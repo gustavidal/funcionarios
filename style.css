@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.faixa{
+    display: flex;
+    background-color: #f3f3f3;
+    align-items: center;
+}
+
+.faixa img{
+    height: 100px;
+    width: 200px;
+    margin-left: auto;
+}
+
+.a{
+    display: flex;
+    margin: auto;
+    padding: 300px 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.a img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    gap: 600px;
+    justify-content: center;
+    border: 4px solid;
+    color: gray;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+   font-size: 60px;
+}
